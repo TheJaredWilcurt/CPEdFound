@@ -1,0 +1,16 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Jared Wilcurt
+	Design, Structure, HTML, CSS, JS, Testing, Logo, Branding, Photo Editing, Optimization
+	
+# TECHNOLOGY COLOPHON
+
+    HTML5, CSS3, jQuery
+    Twitter Bootstrap, Bootswatch, Google Calendar, Google Docs/Drive
+    Dropbox, Sublime Text 2, Dreamweaver CS6, Photoshop CS6, IllustratorCS6
+    PNGGauntlet 3.1.2.0, Png Optimizer 2.1, PNGOUTWin 1.5.0, Ecobyte Replace Text 2.2
+    Windows 7 Professional 64-Bit
+    IIS on Windows Server 2003 R2

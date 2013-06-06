@@ -1,0 +1,151 @@
+@charset "utf-8";
+/* CSS Document */
+
+.strong { font-weight: bold; }
+.em { font-style: italic; }
+.small { font-size: 90%; }
+.smaller { font-size: 70%; }
+.indent { padding-left: 12px; }
+.roundten { border-radius: 10px; }
+#footer .links a { margin-left: 10px; }
+#accordion .fancybox img { border-radius: 10px; }
+.date {
+	font-size: 0.8em;
+	line-height: 0.7em;
+	color: #666;
+	margin-bottom: 0px;
+	padding-bottom: 0px; }
+
+#accordion h3 {
+    border-radius: 4px;
+    font-size: 16px;
+    padding: 0px 0px 0px 10px;
+    min-height: auto !important;
+    margin-bottom: 0px; }
+#accordion div {
+    background-color: #ECECEC;
+    padding: 10px;
+    border-radius: 0px 0px 10px 10px;
+    border-color: #E2E2E2;
+    border-style: solid;
+    border-width: 0px 1px 1px 1px;
+    margin: 0px 3px 20px 10px; }
+
+#overview { padding-left: 10px; }
+#overview h1 { line-height: 45px; }
+
+.donateradios { margin: 0px; }
+.donateradios li { 
+    list-style: none; 
+    display: inline-block;
+    width:  100px;
+    background-color: #FFF;
+    border-radius: 4px;
+    margin: 6px 7px;
+    padding: 3px 11px; }
+.donateradios input {
+    vertical-align: top;
+    margin: 3px 6px 1px 0px; }
+.donother {
+    margin: 0px 0px 0px 1px !important;
+    padding: 0px 0px 0px 4px !important;
+    width: 130px !important;
+    height: 28px !important; }
+.donateradios li:last-of-type { margin-right: 14px; }
+.donateradios label { display: inline; }
+
+.paypal1 {
+	display: block;
+	float: right; }
+.paypal2 { display: none; }
+
+#eventscalendar tr:nth-of-type(odd) { background-color: #EBEBEB; }
+#eventscalendar tr { border: 0px solid #000; }
+#eventscalendar tr:first-of-type {
+    background-color: #D5D5D5;
+    border-bottom: 1px solid #888; }
+#eventscalendar tr:first-of-type td {
+    line-height: 70px;
+    text-align: center; }
+#eventscalendar th { text-align: center; }
+#eventscalendar tr:first-of-type td:nth-child(2) {
+    font-size: 3em;
+    font-weight: bold;
+    line-height: 70px; }
+#eventscalendar tr:first-of-type td a { padding: 10px; }
+#eventscalendar td {
+    line-height: 4em;
+    width: 14.28571428571429%; }
+#eventscalendar .nonmonth { color: #AAA; }
+
+.applyforgrant {
+    display: block;
+    width: 100%;
+    text-align: right; 
+    background-color: transparent !important;
+    padding: 0px !important;
+    border-radius: 0px !important;
+    border-color: transparent !important;
+    border-style: initial !important;
+    border-width: 0px !important;
+    margin:  0px !important; }
+
+.applyforgrant a {
+    margin: 0px 14px 0px 0px;
+    font-weight: bold;
+    padding: 8px 33px; }
+
+.logo {
+    display: block;
+    height: 350px;
+    float: right;
+    padding-right: 15px; }
+.logo2b { display: none; }
+
+#navbar { margin-top: 0px; }
+
+.committees { margin-bottom: 50px; }
+#boardofdir th, .committees th { text-align: center; }
+#boardofdir td, .committees td { width: 50%; }
+
+.loweralpha { list-style-type: none; }
+.loweralpha li:before {
+    content: "(" counter(section, lower-alpha) ") ";
+    padding-right: 15px; }
+.loweralpha li {
+    margin-bottom: 8px;
+    counter-increment: section; }
+
+.lowerroman { list-style-type: none; }
+.lowerroman li:before {
+    content: "(" counter(section, lower-roman) ") ";
+    padding-right: 20px; }
+.lowerroman li {
+    margin-bottom: 8px;
+    margin-left: 40px;
+    counter-increment: section; }
+
+@media (max-width: 979px) {
+    #navlogo img { padding: 4px 0px 8px 0px !important; }
+    .navbar .brand { padding: 5px 20px 0px 0px !important; }
+    #navbar input[class*="span"] { width: 612px !important; }
+    .logo { height: 300px; }
+}
+
+@media (max-width: 767px) {
+    header .span12 { text-align: center; }
+    .logo { display: none; }
+    .logo2b {
+        display: block;
+        height: 350px;
+        margin: 0 auto;
+        float: none; }
+}
+
+@media (max-width: 699px) {
+    .paypal1 { display: none !important; }
+    .paypal2 {
+        margin: 0px auto !important;
+        display: block !important; }
+    #navbar input[class*="span"] { width: 100% !important; }
+}
